@@ -11,7 +11,7 @@ layout = [
 # 
 Janela
 janela = sg.Window('Tela de login',layout)
-# ler s eventos
+# ler os eventos
 while True:
     eventos, valores = janela.read()
     if eventos == sg.WIN_CLOSED:
